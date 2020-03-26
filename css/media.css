@@ -1,0 +1,68 @@
+.media-post{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 720px;
+    max-height: 644px;
+    border: 1px solid #E8EEF1;
+    margin: 10px auto;
+    min-width: 260px;
+}
+.media-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-perfil{
+    max-width: 64px;
+    margin: 5px;
+}
+.info-usuario, .info-usuario h3{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    margin: 0 5px;
+}
+.info-usuario p{
+    margin: 0 2px;
+    color: #75889D;
+    font-size: 1,125em;
+}
+.media-img{
+    display: initial;
+    margin: 5px auto 30px auto;
+    max-width: 647px;
+}
+.media-post a{
+    text-decoration: none;
+    font-size: 1.125em;
+    color: blue;
+}
+
+.media-mensagem{
+    display: flex;
+    flex-direction: column;
+    margin: 55px -26%;
+    max-width: 628px;
+    max-height: 644px;
+}
+.mensagem {
+    padding-bottom: 50px ;
+}
+.media-img a {
+    padding-top: 10px;
+    margin-left: 47px;
+}
+.media-mensagem a{
+    margin-bottom: -20px;
+    margin-right: 410px;
+}
+
+.media-mensagem a:hover {
+    color: rgb(62, 109, 252);
+    transition: all .3s;
+}
+
+.media-img a:hover{
+    color: rgb(62, 109, 252);
+    transition: all .3s;
+}
+
